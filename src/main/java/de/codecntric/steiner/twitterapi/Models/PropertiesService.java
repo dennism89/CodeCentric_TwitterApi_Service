@@ -8,11 +8,10 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-/**
- * Created by dennisMsteiner on 29.08.16.
- */
+
 @Service
 public class PropertiesService {
+
     public Map<String, String> getEnvAndSystemProperties() {
         Properties properties = getProperties();
 
