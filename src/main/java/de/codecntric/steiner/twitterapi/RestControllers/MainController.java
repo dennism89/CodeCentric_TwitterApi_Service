@@ -27,8 +27,10 @@ public class MainController {
 
     @Autowired
     private Twitter twitter;
+
     @Autowired
     private ConnectionRepository connectionRepository;
+
 
 
 
